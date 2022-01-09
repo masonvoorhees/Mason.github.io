@@ -2,7 +2,6 @@
 
 I update this page using this [this link.](https://github.com/masonvoorhees/ePortfolio/edit/gh-pages/index.md)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
