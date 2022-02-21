@@ -17,8 +17,8 @@ For this artifact enhancement, I will use an old assignment from CS340 using pyt
 
 Here are two links in order to access the files for this project:
 
-[First link](https://github.com/masonvoorhees/ePortfolio/blob/main/Voorhees-Mason-Jun%2021%2C%202021%20440%20AM%20(1)%20(1).ipynb)
-[Second link](https://github.com/masonvoorhees/ePortfolio/blob/main/Voorhees-Mason-Jun%2021%2C%202021%20440%20AM%20(1).py)
+[Click here for the first file](https://github.com/masonvoorhees/ePortfolio/blob/main/Voorhees-Mason-Jun%2021%2C%202021%20440%20AM%20(1)%20(1).ipynb)
+[Click here for the second file](https://github.com/masonvoorhees/ePortfolio/blob/main/Voorhees-Mason-Jun%2021%2C%202021%20440%20AM%20(1).py)
 
 ### Software Design / Engineering 
 For this artifact enhancement, I will be improving on a project I worked on in CS310 where I created an object with a playlist that had strings for each song in a playlist. I will be improving on this application by making the object I created more detailed and even  implementing a link that will redirect to YouTube to play songs in each playlist. I will use coding standards to comment what each function and line of code does for future use. When I first started programming, I never really documented what all my code did. After that, I will be showcasing my skills in creating objects. I will create new objects that will work with the playlists. I will call these albums. I will create an album that contains a list of songs by a certain artist. I will then modify the playlist object to take that new album object I created. This will mean the playlist object will no longer contain the object of a song but instead an object of an album. I never completed this project fully either so I will be completing this project to its full extent.
@@ -29,7 +29,7 @@ For Algorithms and data structures I will be using the same project I used in CS
 Here is a link in order to access the file for this project:
 _Note: Software Design / Engineering & Algorithms and Data Structures share the same artifact._
 
-[Link](https://github.com/masonvoorhees/ePortfolio/blob/main/JukeBox_NoEnhancements.zip)
+[Click here](https://github.com/masonvoorhees/ePortfolio/blob/main/JukeBox_NoEnhancements.zip)
 
 
 # Header 1
