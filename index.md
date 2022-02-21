@@ -31,10 +31,65 @@ _Note: Software Design / Engineering & Algorithms and Data Structures share the 
 
 [Click here](https://github.com/masonvoorhees/ePortfolio/blob/main/JukeBox_NoEnhancements.zip)
 
+## Artifacts (after enhancements)
 
-# Header 1
-## Header 2
-### Header 3
+### Databases
+
+**What is the chosen artifact for this enhancement?**
+	The artifact I chose for this enhancement is a database application that I made in my CS 340 class. This application allows us to connect to a Mongo database where we take data from a collection and store it into a table. The user would then be able to view all data on the table and filter each column based on the values in that column. Such as if we are looking at a database of doge breeds, we could filter the dog breeds by typing “golden retriever” into the filter text box. 
+**Why did I choose this artifact?**
+I chose this artifact because databases are something that I have always struggled to understand. After taking CS 340, I was able to finally understand databases enough and had the potential to create something with my newly learned skills. Unfortunately, the class ended soon after I fully understood how a database works so I am using this artifact as an opportunity to improve on an old application and show off my skills.
+**Did you meet the course objectives planned out in milestone one?**
+The objectives set in milestone one have been completed. In milestone one, I outlined 3 changes to the database application  
+
+1.	Add a username and password to the database for security.
+2.	Organize and comment code for readability.
+3.	Enhance the overall application to have more functionality.
+
+For the first change in this application, I needed to add a username and password. Although I am using a local server for this application, I still wanted to keep the application secure for scalability. This means if I decide to make the application cloud-based, I will need the correct credentials to manipulate the database’s data. To implement username and password functionality to the database, I needed to add a user with read and write permissions through Mongo. The below image is how we add a user to the Mongo database:
+
+![image](https://user-images.githubusercontent.com/62579003/154877317-055c2fb7-f569-41c5-88cb-0a647259d140.png)
+
+For the python application, I also needed to add this username and password to the client URL field. This is a simple change:
+
+![image](https://user-images.githubusercontent.com/62579003/154877354-717eadac-afcb-4f32-8a45-8f8fc7d9f470.png)
+
+What this does is pass the username and password through to the Mongo server, so it knows which credentials to use.
+For the second change, I went through all my code and changed everything to make the code a lot more readable:
+
+![image](https://user-images.githubusercontent.com/62579003/154877381-d5656c8d-26de-4496-8ac9-427b2ccab86f.png)
+![image](https://user-images.githubusercontent.com/62579003/154877397-d3248b2c-c628-4be2-85c5-64223cf48860.png)
+
+My strategy for the organization and comments I wrote for this application are based on the block of code each comment is associated with. Each block of code has a summary of what is going on. This makes it easy to dial into one block of code if there is a problem that might pertain to a certain type of issue. This could be if there is an issue with the creation of a data table, we can look at the block of code related to creating a data table. Anytime time there is any type of data manipulation or customization, there is a comment to better describe that action if any future changes are necessary. This will ensure that there will be no confusion on where to add those changes.
+For change three, I added a decent amount more functionality to the application.
+
+![image](https://user-images.githubusercontent.com/62579003/154877450-2e3ced73-390e-4f59-b622-6199433b70f1.png)
+
+Based on the image above you can see the added functionality of graphs. These graphs take many different data from the table which is then used to create the graph. These fields can easily be changed because they are just a string that is changed in the python script. 
+
+![image](https://user-images.githubusercontent.com/62579003/154877471-59c40188-36f7-4fa3-8a8b-2093a20a268e.png)
+
+For the histogram shields, The min and max shield range for the x and y-axis, we are using the number of users with the same shield amount as the max and zero as the min. For the other histogram, Both rank and armor columns are used to create the graph. The rank is a type string and is used as the x-axis. The max number of users with the same rank is used as the max y-axis. The column armor is used for the color of each different type of armor. For instance, if a user was a chief, but had the same armor as a commander, an extra addition to the chief bar would be added but red like shown below:
+
+![image](https://user-images.githubusercontent.com/62579003/154877501-4eab93db-c56e-4541-8677-30d00c3e7dd2.png)
+
+Other functionality that was added, relates to manipulation of the database collection.
+A user can click on any field in the data table and then in real-time see the graphs update. This can be checked in the mongo database.
+If a user clicks the “add row” button, a new row will be created where I can add new data like below:
+
+![image](https://user-images.githubusercontent.com/62579003/154877557-22d42a24-572f-4dfd-a4be-31f69f86e6ca.png)
+
+After filling out this blank table with valid information, the  “save to database” button, is clicked, and then the graphs update to show new relevant information regarding Will. This information is verifiable through Mongo:
+
+![image](https://user-images.githubusercontent.com/62579003/154877577-f93790f0-ab17-476a-8583-70c7f082d19a.png)
+
+With all these changes being successfully implemented into my third artifact, I am confident in my skills regarding databases.
+
+**Reflect on the process of enhancing/modifying your artifact.**
+When enhancing my artifact, the biggest obstacle I had to face was how this application was written on a Linux virtual machine. This meant that the whole database that I had created on that Linux virtual machine, would no longer be available to me on my windows PC. This meant that I needed to start from scratch on making the database. I went on google and found out there were tools like MongoDB Compass that allows me to fully import and create a database by uploading a text document written in the correct format (JSON). I created a text document of all data I needed for my application and was on my way to start on the enhancements. When starting the enhancements, I also had issues with packages not being downloaded, so I went online to find those packages I needed. After getting all those packages fully installed, my enhancement process started. I ran into the same obstacles as I did with the Jukebox application, my code was written messy and no comments were made. I needed to slowly work my way through each block of code and wrote comments in as I went. Once I finished re-organizing all the code, working on the other two changes was a piece of cake. 
+
+[Click here](https://github.com/masonvoorhees/ePortfolio/blob/main/DataBase_Enhanced.py) to view the enhanced database artifact.
+
 
 - Bulleted
 - List
