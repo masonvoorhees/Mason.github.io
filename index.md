@@ -1,14 +1,16 @@
 ## Welcome to my ePortfolio
 
 I update this page using this [this link.](https://github.com/masonvoorhees/ePortfolio/edit/gh-pages/index.md)
+This ePortfolio contains work from previous classes that I have improved on in order to showcase the skills I have obtained while studying at SNHU.
 
 
-### Markdown
+### Code Review
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This code review will go over two artifacts I have chosen from previous courses. I will outline the flaws and enhancements I that will be made to these artifacts.
 
-```markdown
-Syntax highlighted code block
+Click [here](https://www.youtube.com/watch?v=Md9IJjylD60) to view the code review video.
+
+
 
 # Header 1
 ## Header 2
@@ -23,8 +25,8 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+
 
 
