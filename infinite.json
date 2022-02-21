@@ -1,0 +1,111 @@
+[{
+  "_id": {
+    "$oid": "62009ad16fb4b27ad98946c1"
+  },
+  "name": "Mason",
+  "armor": "Mark VI",
+  "rank": "Chief",
+  "age": 22,
+  "health": "Outstanding",
+  "shields": "100%",
+  "weight": "165 Lbs"
+},{
+  "_id": {
+    "$oid": "62009ad16fb4b27ad98946c2"
+  },
+  "name": "Kena",
+  "armor": "Mark II",
+  "rank": "Commander",
+  "age": 20,
+  "health": "Outstanding",
+  "shields": "98%",
+  "weight": "120 Lbs"
+},{
+  "_id": {
+    "$oid": "62009ad16fb4b27ad98946c3"
+  },
+  "name": "Spencer",
+  "armor": "Mark V",
+  "rank": "Rercuit",
+  "age": 26,
+  "health": "Average",
+  "shields": "70%",
+  "weight": "199 Lbs"
+},{
+  "_id": {
+    "$oid": "62009ad16fb4b27ad98946c4"
+  },
+  "name": "Robert",
+  "armor": "ODST",
+  "rank": "ODST",
+  "age": 16,
+  "health": "Outstanding",
+  "shields": "50%",
+  "weight": "130 Lbs"
+},{
+  "_id": {
+    "$oid": "62009ad16fb4b27ad98946c5"
+  },
+  "name": "George",
+  "armor": "Mark VI",
+  "rank": "Chief",
+  "age": 26,
+  "health": "Good",
+  "shields": "85%",
+  "weight": "250 Lbs"
+},{
+  "_id": {
+    "$oid": "62009ad16fb4b27ad98946c6"
+  },
+  "name": "Micah",
+  "armor": "ODST",
+  "rank": "Marine",
+  "age": 18,
+  "health": "Outstanding",
+  "shields": "20%",
+  "weight": "130 Lbs"
+},{
+  "_id": {
+    "$oid": "62009ad16fb4b27ad98946c7"
+  },
+  "name": "Liam",
+  "armor": "Mark VII",
+  "rank": "Lieutenant",
+  "age": 65,
+  "health": "Fine",
+  "shields": "150%",
+  "weight": "160 Lbs"
+},{
+  "_id": {
+    "$oid": "62009ad16fb4b27ad98946c8"
+  },
+  "name": "Joe",
+  "armor": "Mark I",
+  "rank": "Grunt",
+  "age": "20",
+  "health": "Great",
+  "shields": "100",
+  "weight": "140 lbs"
+},{
+  "_id": {
+    "$oid": "62009ad16fb4b27ad98946c9"
+  },
+  "name": "Luke",
+  "armor": "Mark II",
+  "rank": "Chief",
+  "age": "14",
+  "health": "Perfect",
+  "shields": "100%%",
+  "weight": "130 lbs"
+},{
+  "_id": {
+    "$oid": "62009ad16fb4b27ad98946ca"
+  },
+  "name": "Will",
+  "armor": "No Armor",
+  "rank": "Citizen",
+  "age": "10",
+  "health": "Average",
+  "shields": "0%",
+  "weight": "110 lbs"
+}]
