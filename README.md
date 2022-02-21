@@ -1,2 +1,2 @@
 # ePortfolio
-CS499
+By Mason Voorhees
