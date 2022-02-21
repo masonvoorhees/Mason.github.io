@@ -18,9 +18,9 @@ For this artifact enhancement, I will use an old assignment from CS340 using pyt
 
 Here are two links in order to access the files for this project:
 
-[Click here for the first file](https://github.com/masonvoorhees/ePortfolio/blob/main/Voorhees-Mason-Jun%2021%2C%202021%20440%20AM%20(1)%20(1).ipynb)
+Click [here](https://github.com/masonvoorhees/ePortfolio/blob/main/Voorhees-Mason-Jun%2021%2C%202021%20440%20AM%20(1)%20(1).ipynb) for the first file
 
-[Click here for the second file](https://github.com/masonvoorhees/ePortfolio/blob/main/Voorhees-Mason-Jun%2021%2C%202021%20440%20AM%20(1).py)
+Click [here](https://github.com/masonvoorhees/ePortfolio/blob/main/Voorhees-Mason-Jun%2021%2C%202021%20440%20AM%20(1).py) for the second file
 
 ### Software Design / Engineering 
 For this artifact enhancement, I will be improving on a project I worked on in CS310 where I created an object with a playlist that had strings for each song in a playlist. I will be improving on this application by making the object I created more detailed and even  implementing a link that will redirect to YouTube to play songs in each playlist. I will use coding standards to comment what each function and line of code does for future use. When I first started programming, I never really documented what all my code did. After that, I will be showcasing my skills in creating objects. I will create new objects that will work with the playlists. I will call these albums. I will create an album that contains a list of songs by a certain artist. I will then modify the playlist object to take that new album object I created. This will mean the playlist object will no longer contain the object of a song but instead an object of an album. I never completed this project fully either so I will be completing this project to its full extent.
@@ -30,7 +30,7 @@ For Algorithms and data structures I will be using the same project I used in CS
 
 Here is a link in order to access the file for this project:
 
-[Click here](https://github.com/masonvoorhees/ePortfolio/blob/main/JukeBox_NoEnhancements.zip)
+Click [here](https://github.com/masonvoorhees/ePortfolio/blob/main/JukeBox_NoEnhancements.zip)
 
 _Note: Software Design / Engineering & Algorithms and Data Structures share the same artifact._
 
@@ -100,7 +100,7 @@ With all these changes being successfully implemented into my third artifact, I 
 
 When enhancing my artifact, the biggest obstacle I had to face was how this application was written on a Linux virtual machine. This meant that the whole database that I had created on that Linux virtual machine, would no longer be available to me on my windows PC. This meant that I needed to start from scratch on making the database. I went on google and found out there were tools like MongoDB Compass that allows me to fully import and create a database by uploading a text document written in the correct format (JSON). I created a text document of all data I needed for my application and was on my way to start on the enhancements. When starting the enhancements, I also had issues with packages not being downloaded, so I went online to find those packages I needed. After getting all those packages fully installed, my enhancement process started. I ran into the same obstacles as I did with the Jukebox application, my code was written messy and no comments were made. I needed to slowly work my way through each block of code and wrote comments in as I went. Once I finished re-organizing all the code, working on the other two changes was a piece of cake. 
 
-[Click here](https://github.com/masonvoorhees/ePortfolio/blob/main/DataBase_Enhanced.py) to view the enhanced database artifact.
+Click [here](https://github.com/masonvoorhees/ePortfolio/blob/main/DataBase_Enhanced.py) to view the enhanced database artifact.
 
 ### Software Design / Engineering & Algorithms and Data Structures
 
@@ -171,7 +171,7 @@ For the last edition of this enhancement (change #8), I added error checking so 
 
 After finishing this enhancement, I have been able to fully showcase my coding skills relating to software design, data structures, and algorithms. My enhancement contained the creating of objects, re-organizing my code, condensing my code, error checking, implementation of arrays and linked lists, and code documentation. I have learned how important it is to keep code organized and well thought out. If others need to look at your code or if you are needing to change something in the future, having great software design skills will allow you to accurately comprehend your code. Finding time to keep code organized can also help bring bugs and security flaws to the surface. The implementation of correct data structures, algorithms, error checking, and objects all lead to a more organized application that won’t only look pretty, but will also increase the application’s efficiency. 
 
-[Click here](https://github.com/masonvoorhees/ePortfolio/blob/main/jukebox-player(fullyEnhanced).zip) to view the enhanced Juke-Box artifact.
+Click [here](https://github.com/masonvoorhees/ePortfolio/blob/main/jukebox-player(fullyEnhanced).zip) to view the enhanced Juke-Box artifact.
 
 
 
