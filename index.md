@@ -102,24 +102,31 @@ When enhancing my artifact, the biggest obstacle I had to face was how this appl
 
 [Click here](https://github.com/masonvoorhees/ePortfolio/blob/main/DataBase_Enhanced.py) to view the enhanced database artifact.
 
-### Software Design / Engineering & Algorithms and Data Structures 
+### Software Design / Engineering & Algorithms and Data Structures
 
 **What is the chosen artifact for this enhancement?**
 
-The artifact I chose for this enhancement is the same artifact as my first enhancement, the Jukebox application. I made this project in CS 310 which was an application where students would create a class called playlist which accessed other classes with objects called songs. These songs would be added to the student’s created playlist. Once the application was running, the user would need to type in the playlist name. When the playlist name was typed into the console, the app would print out “now playing” with the title of the song and artist.
+The artifact I chose for these two enhancements is the Jukebox application. I made this project in CS 310 which was an application where students would create a class called playlist which accessed other classes with objects called songs. These songs would be added to the student’s created playlist. Once the application was running, the user would need to type in the playlist name. When the playlist name was typed into the console, the app would print out “now playing” with the title of the song and artist.
 
 **Why did I choose this artifact?**
 
-I chose this artifact because this artifact has many different features that feel necessary to know as a future developer. This Jukebox application has many different data structures, so I feel it is important to understand which data structure should be used in each situation. I also noticed that this application could be improved functionality-wise. I noticed the only functionality of the application was to print out what the user’s playlist said while I thought it would be better for the actual song to play. This would lead me to want to add more functionality relating to customization for the user. So, I created a whole new class called “CreateUser” which allows the user to create a playlist of their own custom songs of any length with error checking. I also was able to enhance the song object to also take in a URL so that the user could add a link to the song that would open when the song was playing. In short, the reason why I chose this artifact is that it had many different improvements that needed to be done that would showcase my coding skills along with show casing my usage of different data structures. 
-Did you meet the course objectives planned out in milestone one?
+I chose this artifact because this artifact has many different features that feel necessary to know as a future developer. This Jukebox application has many different data structures, so I feel it is important to understand which data structure should be used in each situation. The Jukebox application also has many different classes and objects that were used by one another and none of these classes had any documentation of what that class or object was doing. This gave me the opportunity to enhance the application so that I could improve on my coding standards along with documentation. I also noticed that this application could be improved functionality-wise. I noticed the only functionality of the application was to print out the song name and artist that was hard coded in user’s playlist. I thought it would be better for the actual song to play. This would lead me to add more functionality relating to customization for the user. So, I created a whole new class called “CreateUser” which allows the user to create a playlist of their own custom songs of any length with error checking. I also was able to enhance the song object to also take in a URL so that the user could add a link to the song that would open when the song was playing. In short, the reason why I chose this artifact is because it had many different improvements that needed to be done that would showcase my coding skills in relation to Software Design / Engineering & Algorithms and Data Structures. 
 
-The objectives set in milestone one have been completed. In milestone one, I outlined 3 changes to the Jukebox application  
+**Did you meet the course objectives planned out in milestone one?**
+
+The objectives set in milestone one have been completed. In milestone one, I outlined 8 changes to the Jukebox application  
 
 1.	Incorporate usage of arrays
 2.	Incorporate usage of linked lists
 3.	Change the structure of the playlists code
+4.      Commented code written in classes and objects for greater understanding
+5.	Re-organize code to better fit a standard that all classes and objects follow
+6.	Condense code so all unnecessary calls and commands are deleted 
+7.	Create a separate class that allows the user to create their own custom playlist with songs
+8.	Surround user input with try/catch statements so there is a way to recover from invalid user entries.
 
-For all changes look at the below image:
+
+For changes 1-3 look at the below image:
 
 ![image](https://user-images.githubusercontent.com/62579003/154878859-4c76925a-5dd6-4e4f-a4e6-5eea0d566403.png)
 
@@ -139,11 +146,32 @@ The student list class then verifies the input typed in and runs the create_Play
 
 **Reflect on the process of enhancing/modifying your artifact.**
 
-When enhancing my artifact, I ran into the issue of not fully remembering how my code was functioning. This was because my code was very disorganized and none of the code was commented on. After fully going through my code, I started understanding the functionality of each class was. To remember this more clearly, I would start commenting on what each block of codes function was so I could remember what everything was doing. After doing this, I wanted to reorganize all the code to increase the readability. This would allow me to come back to the code and quickly pinpoint what needs to be changed. I then started on enhancements one and two for this project. I think my approach of reorganizing all the code before making any changes helped the enhancement process greatly. It allowed me to quickly understand where I needed to implement changes whereas before, it was hard to see where the enhancements should be.
+When enhancing my artifact, I ran into the issue of not fully remembering how my code was functioning. This was because my code was very disorganized and none of the code was commented on. After fully going through my code, I started understanding the functionality of each class was. To remember this more clearly, I would start commenting on what each block of codes function was so I could remember what everything was doing. After doing this, I wanted to reorganize all the code to increase the readability. This would allow me to come back to the code and quickly pinpoint what needs to be changed. I then started on changes #4-6. I think my approach of reorganizing all the code before making any changes helped the enhancement process greatly. It allowed me to quickly understand where I needed to implement changes whereas before, it was hard to see where the enhancements should be.
+
+Below is an example of how a class has been updated for better coding design notice the commenting and organization of the code to look more readable:
+
+![image](https://user-images.githubusercontent.com/62579003/154881632-70e95ff7-8246-4bcc-86a8-2e43b097d7f5.png)
+
+![image](https://user-images.githubusercontent.com/62579003/154881648-93181c52-9ab9-4be5-8db5-9c4e6d3e40ac.png)
+
+For change #7, added a new class and object that allows the user to create their own playlist instead of only being able to use hardcoded playlists as shown below:
+
+![image](https://user-images.githubusercontent.com/62579003/154881674-d1816de1-df07-4f4b-a494-548c8ee8ae96.png)
+
+![image](https://user-images.githubusercontent.com/62579003/154881694-67851d82-6e9e-460f-b290-6ee907441ee2.png)
+
+For the last edition of this enhancement (change #8), I added error checking so when a user enters a command that is not recognized, the application understands how to deal with this incorrect input. This was done by creating a try-catch statement that catches any IO exceptions and then tells the user that the input is not recognized and to try again. When the application is first running, we ask for the user’s input, in our code, we have an if statement at this step that will only continue if the input matches one of the commands listed. If the command is not listed, we also display that the command is not recognized and to try again as shown below.
+
+![image](https://user-images.githubusercontent.com/62579003/154882048-cf2eea25-e9b2-4f56-be1c-4d6390a26e26.png)
+
+
+![image](https://user-images.githubusercontent.com/62579003/154882030-086ff90d-7f8c-46d6-a760-179ffc44feec.png)
 
 **Conclusion**
 
-After finishing this enhancement, I have been able to fully showcase my coding skills relating to software design, data structures, and algorithms. My enhancement contained the creating of objects, re-organizing my code, condensing my code, error checking, implementation of arrays and linked lists, and code documentation. I have learned how important it is to keep code organized and well thought out. If others need to look at your code or if you are needing to change something in the future, having great software design skills will allow you to accurately comprehend your code. Finding time to keep code organized can also help bring bugs and security flaws to the surface. The implementation of correct data structures, algorithms, error checking, and objects all lead to a more organized application that won’t only look pretty but will also increase the application’s efficiency. 
+After finishing this enhancement, I have been able to fully showcase my coding skills relating to software design, data structures, and algorithms. My enhancement contained the creating of objects, re-organizing my code, condensing my code, error checking, implementation of arrays and linked lists, and code documentation. I have learned how important it is to keep code organized and well thought out. If others need to look at your code or if you are needing to change something in the future, having great software design skills will allow you to accurately comprehend your code. Finding time to keep code organized can also help bring bugs and security flaws to the surface. The implementation of correct data structures, algorithms, error checking, and objects all lead to a more organized application that won’t only look pretty, but will also increase the application’s efficiency. 
+
+[Click here](https://github.com/masonvoorhees/ePortfolio/blob/main/jukebox-player(fullyEnhanced).zip) to view the enhanced Juke-Box artifact.
 
 
 
