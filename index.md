@@ -176,6 +176,7 @@ After finishing this enhancement, I have been able to fully showcase my coding s
 
 Click [here](https://github.com/masonvoorhees/ePortfolio/blob/main/jukebox-player(fullyEnhanced).zip) to access the enhanced Juke-Box artifact.
 
+_To access the full github repository click [here](https://github.com/masonvoorhees/ePortfolio)._
 
 
 
