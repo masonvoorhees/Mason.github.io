@@ -18,6 +18,7 @@ For this artifact enhancement, I will use an old assignment from CS340 using pyt
 Here are two links in order to access the files for this project:
 
 [Click here for the first file](https://github.com/masonvoorhees/ePortfolio/blob/main/Voorhees-Mason-Jun%2021%2C%202021%20440%20AM%20(1)%20(1).ipynb)
+
 [Click here for the second file](https://github.com/masonvoorhees/ePortfolio/blob/main/Voorhees-Mason-Jun%2021%2C%202021%20440%20AM%20(1).py)
 
 ### Software Design / Engineering 
@@ -27,9 +28,8 @@ For this artifact enhancement, I will be improving on a project I worked on in C
 For Algorithms and data structures I will be using the same project I used in CS310. I will be improving on the overall function of the application by incorporating arrays, linked lists, and functions to better sort my data. Right now, the assignment simply prints a list of songs in the console, I will be making this application far more of a standalone experience where YouTube will launch and play the selected song. By completing these tasks, I will showcase my skills in algorithms and data structures.
 
 Here is a link in order to access the file for this project:
-_Note: Software Design / Engineering & Algorithms and Data Structures share the same artifact._
-
 [Click here](https://github.com/masonvoorhees/ePortfolio/blob/main/JukeBox_NoEnhancements.zip)
+_Note: Software Design / Engineering & Algorithms and Data Structures share the same artifact._
 
 ## Artifacts (after enhancements)
 
